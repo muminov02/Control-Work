@@ -10,3 +10,7 @@ for (int j = 0; j < arr.Length; j++)
 {
     if (arr[j].Length <= 3) { new_arr[count2] = arr[j]; count2++; }
 }
+for (int l = 0; l < new_arr.Length; l++)
+{
+    Console.Write(new_arr[l] + " ");
+}
